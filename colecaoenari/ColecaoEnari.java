@@ -25,13 +25,12 @@ public class ColecaoEnari {
                 
                 System.out.println(" ");
                 System.out.println("Quem está escrevendo a review?");
-                j1.pessoa = sc.next();
+                j1.setPessoa(sc.next());
                 
-                
+                sc.nextLine();
                 System.out.println(" ");
                 System.out.println("Está fazendo uma review de qual jogo?");
-                String nome=sc.next();
-                j1.setjogo(nome);
+                j1.setJogo(sc.nextLine());
                 
                 System.out.println(" ");
                 System.out.println("Recomendo jogo?");
@@ -39,15 +38,15 @@ public class ColecaoEnari {
                 System.out.println("2- Não");
                 recomendacao = sc.nextInt();
                 if(recomendacao == 1){
-                    j1.recomendo = "Recomendo";
+                    j1.setRecomendo("Recomendo");
                 }
                 else {
-                    j1.recomendo = "Não recomendo";
+                    j1.setRecomendo("Não recomendo");
                 }
                 
                 System.out.println(" ");
                 System.out.println("Escreva a sua review: ");
-                j1.review = sc.next();
+                j1.setReview(sc.next());
                 
                 
             }
@@ -57,10 +56,10 @@ public class ColecaoEnari {
             
             if (x == 2) {
                 System.out.println("Menu pra ver uma review");
-                System.out.println(j1.pessoa);
-                System.out.println(j1.getjogo());
-                System.out.println(j1.recomendo);
-                System.out.println(j1.review);
+                System.out.println(j1.getPessoa());
+                System.out.println(j1.getJogo());
+                System.out.println(j1.getRecomendo());
+                System.out.println(j1.getReview());
             }
             
             
