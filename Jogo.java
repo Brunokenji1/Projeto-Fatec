@@ -2,7 +2,7 @@ package com.mycompany.colecaoenari;
 
 import java.util.Scanner;
 
-public class ProjetoFilme {
+public class ProjetoFilm {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
