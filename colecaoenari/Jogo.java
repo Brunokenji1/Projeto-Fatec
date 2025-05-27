@@ -8,17 +8,17 @@ public class Jogo {
     private String recomendo;
     private String review;
 
-    public void setpessoa(String pessoa){
+    public void setPessoa(String pessoa){
         this.pessoa=pessoa;
     }
-    public String getpessoa(){
+    public String getPessoa(){
         return pessoa;
     }
     
-    public void setjogo(String nome){
+    public void setJogo(String nome){
         this.jogo=nome;
     }
-    public String getjogo(){
+    public String getJogo(){
         return jogo;
     }
     
