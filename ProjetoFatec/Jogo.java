@@ -40,7 +40,7 @@ public class Jogo {
             System.out.println("Pessoa: " + this.pessoa);
             System.out.println("Jogo: " + this.jogo);
             System.out.println("Avaliacao: " + this.recomendo);
-            System.out.println("Review" + this.review);
+            System.out.println("Review: " + this.review);
     }
 }
         
