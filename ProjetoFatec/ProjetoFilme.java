@@ -55,11 +55,7 @@ public class ProjetoFilme {
             
             
             if (x == 2) {
-                System.out.println("Menu pra ver uma review");
-                System.out.println(j1.getPessoa());
-                System.out.println(j1.getJogo());
-                System.out.println(j1.getRecomendo());
-                System.out.println(j1.getReview());
+                j1.review();
             }
             
             
