@@ -43,10 +43,10 @@ public class ProjetoFilme {
                 else {
                     j1.setRecomendo("Não recomendo");
                 }
-                
+                sc.nextLine();
                 System.out.println(" ");
                 System.out.println("Escreva a sua review: ");
-                j1.setReview(sc.next());
+                j1.setReview(sc.nextLine());
                 
                 
             }
