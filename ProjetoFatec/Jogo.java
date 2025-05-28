@@ -35,6 +35,12 @@ public class Jogo {
     public String getReview(){
         return review;
     }
-    
+    public void review(){
+            System.out.println("Menu pra ver uma review");
+            System.out.println("Pessoa: " + this.pessoa);
+            System.out.println("Jogo: " + this.jogo);
+            System.out.println("Avaliacao: " + this.recomendo);
+            System.out.println("Review" + this.review);
+    }
 }
         
