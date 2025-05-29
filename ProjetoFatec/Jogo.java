@@ -36,11 +36,11 @@ public class Jogo {
         return review;
     }
     public void review(){
-            System.out.println("Menu pra ver uma review");
-            System.out.println("Pessoa: " + this.pessoa);
-            System.out.println("Jogo: " + this.jogo);
-            System.out.println("Avaliacao: " + this.recomendo);
-            System.out.println("Review: " + this.review);
+        System.out.println("Menu pra ver uma review");
+        System.out.println("Pessoa: " + getPessoa());
+        System.out.println("Jogo: " + getJogo());
+        System.out.println("Avaliacao: " + getRecomendo());
+        System.out.println("Review: " + getReview());
     }
 }
         
